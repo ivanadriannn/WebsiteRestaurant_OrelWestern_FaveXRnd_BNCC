@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Sancreek&family=Vollkorn+SC&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    text-decoration: none;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 62px;
+    background: #80B1FB;
+}
+#nav .container{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 10px;
+}
+#nav .container>p{
+    font-family: "Vollkorn SC";
+    font-size: 48px;
+    line-height: 28px;
+}
+#nav .container>p.w{
+    display: flex;
+    font-family: "Sancreek";
+    font-size: 20px;
+    justify-content: center;
+}
+#nav .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+}
+#nav .links>a{
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+}
+#nav .links>a.us{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #95AFF4;
+    background: 
+    #95AFF4;
+    padding: 12px 36px;
+    border-radius: 152px;
+    mix-blend-mode: color-burn;
+    width: 170px;
+}
+#nav .links .o:hover{
+    color: white;
+}
+#nav .links .us:hover{
+    background-color: black;
+    border-color: black;
+    color: white;
+    transition: all 0.3s ease;
+}
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 115vh;
+    background: #D7E3FC;
+}
+#hero img{
+    margin-bottom: 1.5rem;
+}
+#hero .content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 6rem
+}
+#hero .content .p{
+    font-size: 64px;
+    font-family: "Sancreek";
+    color: #000000;
+    line-height: 61px;
+}
+#hero .content span{
+    font-size: 128px;
+    font-family: "Road Rage";
+    color: #FF2508;
+    font-weight: 400;
+    line-height: 97px;
+}

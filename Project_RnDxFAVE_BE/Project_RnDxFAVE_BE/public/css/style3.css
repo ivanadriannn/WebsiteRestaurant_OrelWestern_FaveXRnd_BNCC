@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Sancreek&family=Vollkorn+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    text-decoration: none;
+}
+body{
+    background: #82CBFF 28%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4.5rem;
+    border-radius: 30px;
+    background-color: #D7E3FC;
+    width: 999px;
+    height: auto;
+    margin-left: 13rem;
+    margin-bottom: 1rem;
+    box-shadow: 9px 11px 8px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 114px;
+}
+.container form h2{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 600;
+    color:  #05419A;
+}
+.container form{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+.container form .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+    gap: 10px;
+    margin-top: 2rem;   
+}
+.container form .content .name{
+    display: flex;
+    margin-left: 3rem;
+    gap: 2rem;
+}
+.container form .content .name .first{
+    display: flex;
+    flex-direction: column;
+    color: #05419A;
+    font-weight: 600;
+    font-size: 15px;
+}
+.container form .content .name .last{
+    display: flex;
+    flex-direction: column;
+    color: #05419A;
+    font-weight: 600;
+    font-size: 15px;
+}
+.container form .content .name .first label{
+    margin-left: 4px;
+}
+.container form .content .name .last label{
+    margin-left: 4px;
+}
+.container form .content .name .first input{
+    width: 368.26px;
+    height: 40px;
+    border: 2px solid #E8ECFB;
+    background:  #E8ECFB;
+    border-radius: 12px;
+    padding: 2px 5px;
+    margin-top: 5px;
+}
+.container form .content .last input{
+    width: 368.26px;
+    height: 40px;
+    border: 2px solid #E8ECFB;
+    background:  #E8ECFB;
+    border-radius: 12px;
+    padding: 2px 5px;
+    margin-top: 5px;
+}
+.container form .content .use{
+    display: flex;
+    margin-left: 3rem;
+    gap: 2rem;
+}
+.container form .content .use .date{
+    display: flex;
+    flex-direction: column;
+    color: #05419A;
+    font-weight: 600;
+    font-size: 15px;
+}
+.container form .content .use .user{
+    display: flex;
+    flex-direction: column;
+    color: #05419A;
+    font-weight: 600;
+    font-size: 15px;
+}
+.container form .content .use label{
+    margin-left: 4px;
+}
+.container form .content .use input{
+    width: 368.26px;
+    height: 40px;
+    border: 2px solid #E8ECFB;
+    background:  #E8ECFB;
+    border-radius: 12px;
+    padding: 2px 5px;
+    margin-top: 5px;
+}
+.container form .content .date input{
+    width: 368.26px;
+    height: 40px;
+    border: 2px solid #E8ECFB;
+    background:  #E8ECFB;
+    border-radius: 12px;
+    padding: 2px 5px;
+    margin-top: 5px;
+}
+.container form .content .pass{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 1rem;
+    width: 762px;
+    margin-left: 3rem;
+    gap: 5px;
+}
+.container form .content .pass label{
+    color: #05419A;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 3px;
+}
+.container form .content .pass input{
+    height: 40px;
+    border: 2px solid #E8ECFB;
+    background: #E8ECFB;
+    border-radius: 12px;
+    padding: 2px 5px;
+}
+.container form .content .conf{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 762px;
+    margin-left: 3rem;
+    gap: 5px;
+}
+.container form .content .conf label{
+    color: #05419A;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 3px;
+}
+.container form .content .conf input{
+    height: 40px;
+    border: 2px solid #E8ECFB;
+    background: #E8ECFB;
+    border-radius: 12px;
+    padding: 2px 5px;
+}
+.container form .content input.submit{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid  #CACACA;
+    background: #FFFFFF;
+    color: #05419A;
+    font-weight: 500;
+    font-size: 20px;
+    width: 112px;
+    height: 38px;
+    border-radius: 35px;
+}
+.container form .content input.submit:hover{
+    background-color: #82CBFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-family: "Vollkorn SC";
+    font-size: 48px;
+    line-height: 28px; 
+    color:  #FFFFFF; 
+}
+p.w{
+    display: flex;
+    font-family: "Sancreek";
+    font-size: 20px;
+    justify-content: center;
+}
+.container form .content div>.val{
+    color: tomato;
+    font-weight: 600;
+    margin-top: 5px;
+    padding: 2px;
+}
+.container form .content .conf button{
+    position: absolute;
+    height: auto;
+    top: 51%;
+    right: 1rem;
+    transform: translateY(-50%);
+    background-color: none;
+    border: none;
+    cursor: pointer;
+}
+.container form .content .pass button{
+    position: absolute;
+    height: auto;
+    top: 43%;
+    right: 1rem;
+    transform: translateY(-50%);
+    background-color: none;
+    border: none;
+    cursor: pointer;
+}
+.container form .content .pass button>i{
+    font-size: 1.5rem;
+}
+
+.container form .content .conf button>i{
+    font-size: 1.5rem;
+}
